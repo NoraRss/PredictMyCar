@@ -23,7 +23,7 @@ Histogrammes et cartes interactives pour analyser les prix selon région, marque
 Possibilité de filtrer par marque, modèle, année, kilométrage, carburant ou puissance pour mieux comprendre le marché.
 
 
-## PredictMyCar est un projet qui combine :
+## Etape du projet :
 - Scraping de données réelles pour obtenir des informations à jour sur le marché de l’occasion.
 
 Nous avons réalisé un scraping sur le site Autosphere, plusieurs fois, en récupérant les données page par page (35 pages à chaque fois, sachant qu’une page contient environ 23 annonces), ce qui nous a permis d’obtenir au total environ 5 600 annonces.
@@ -59,7 +59,7 @@ PrédictMyCar/
 
 
 ## Technologies utilisées
-Logiciel : Python
+Logiciel : Python 3.13.9
 Bibliothèques :
 - Scraping : Playwright 
 - Nettoyage et prétraitement : Pandas, NumPy, Regex
@@ -72,6 +72,7 @@ Bibliothèques :
 Rousseau Nora
 
 Boudamous Lyna
+
 
 
 
