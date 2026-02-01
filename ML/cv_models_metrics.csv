@@ -1,0 +1,8 @@
+model,CV_MAE
+DummyRegressor,0.2975715266711033
+LinearRegression,0.08394723081752012
+LassoRegression,0.10347553637092521
+KNeighborsRegressor,0.07307821469766548
+DecisionTreeRegressor,0.09243333306904902
+RandomForestRegressor,0.0749082250008179
+GradientBoostingRegressor,0.06782678548592014
