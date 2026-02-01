@@ -60,6 +60,7 @@ PrédictMyCar/
 
 ## Technologies utilisées
 Logiciel : Python 3.13.9
+
 Bibliothèques :
 - Scraping : Playwright 
 - Nettoyage et prétraitement : Pandas, NumPy, Regex
@@ -72,6 +73,7 @@ Bibliothèques :
 Rousseau Nora
 
 Boudamous Lyna
+
 
 
 
