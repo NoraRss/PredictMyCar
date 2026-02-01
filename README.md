@@ -42,7 +42,7 @@ Lancer l’application web : python -m streamlit run app.py
 
 ## Structure du projet
 ```
-PrédictMyCar/
+PredictMyCar/
 ├── data/                     # Dossier pour les jeux de données
 ├── ML/                       # Dossier pour les fichiers liés au Machine Learning
 ├── tests/                    # Dossier pour les tests unitaires
@@ -73,6 +73,7 @@ Bibliothèques :
 Rousseau Nora
 
 Boudamous Lyna
+
 
 
 
