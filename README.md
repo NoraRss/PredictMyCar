@@ -1,4 +1,6 @@
-# Introduction
+# 🚗 PredcitMyCar
+
+## Introduction
 
 Estimer le prix d’une voiture d’occasion peut être complexe : plusieurs facteurs influencent sa valeur, comme l’année, le modèle, la puissance ou le kilométrage. Pour obtenir une estimation fiable, il est utile de se baser sur les données historiques du marché.
 
@@ -7,15 +9,7 @@ PredictMyCar est une application développée en Python qui permet de générer 
 Cette approche se base sur l’analyse de milliers d’annonces réelles collectées sur Autosphère, permettant de proposer des estimations contextualisées et cohérentes avec le marché français des voitures d’occasion.
 
 
-
-PredictMyCar est un projet qui combine :
-- Scraping de données réelles pour obtenir des informations à jour sur le marché de l’occasion.
-- Nettoyage et prétraitement des données afin d’avoir un jeu fiable et exploitable.
-- Prédiction du prix des véhicules via machine learning et sélection du modèle le plus performant.
-- Création d'une interface web interactive avec Streamlit pour rendre la prédiction accessible à tous.
-
-
-# Fonctionnalités clés
+## Fonctionnalités clés
 - Prédiction du prix des véhicules
 L’utilisateur saisit les caractéristiques d’une voiture à l'aide de sliders et menus déroulants.
 L’application fournit une estimation médiane du prix basée sur les données historiques.
@@ -29,17 +23,25 @@ Histogrammes et cartes interactives pour analyser les prix selon région, marque
 Possibilité de filtrer par marque, modèle, année, kilométrage, carburant ou puissance pour mieux comprendre le marché.
 
 
+## PredictMyCar est un projet qui combine :
+- Scraping de données réelles pour obtenir des informations à jour sur le marché de l’occasion.
 
-# Mode d’emploi
+- Nettoyage et prétraitement des données afin d’avoir un jeu fiable et exploitable.
+- Prédiction du prix des véhicules via machine learning et sélection du modèle le plus performant.
+- Création d'une interface web interactive avec Streamlit pour rendre la prédiction accessible à tous.
+
+
+
+## Mode d’emploi
 Lancer l’application web : python -m streamlit run app.py
 
 
-# Structure du projet
+## Structure du projet
 PredictMyCar/
-├── data/                       # Dossier pour les datasets
-├── ML/                         # Dossier pour les fichiers liés au Machine Learning
-├── tests/                      # Dossier pour les tests unitaires
-│   ├── test_autoscrap.py       
+- data/                       # Dossier pour les datasets
+- ML/                         # Dossier pour les fichiers liés au Machine Learning
+- tests/                      # Dossier pour les tests unitaires
+    - test_autoscrap.py       
 │   ├── test_data_preprocessing.py 
 │   └── test_model_training.py  
 ├── app.py                      # Application streamlit
@@ -50,7 +52,7 @@ PredictMyCar/
 └── README.md                   
 
 
-# Technologies utilisées
+## Technologies utilisées
 Logiciel : Python
 Bibliothèques :
 - Scraping : Playwright 
@@ -60,6 +62,7 @@ Bibliothèques :
 - Application web : Streamlit
 
 
-# Auteurs 
+## Auteurs 
 Rousseau Nora
+
 Boudamous Lyna
