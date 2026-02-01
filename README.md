@@ -41,19 +41,21 @@ Lancer l’application web : python -m streamlit run app.py
 
 
 ## Structure du projet
-PredictMyCar/
-- data/                       # Dossier pour les datasets
-- ML/                         # Dossier pour les fichiers liés au Machine Learning
-- tests/                      # Dossier pour les tests unitaires
-    - test_autoscrap.py       
-│   ├── test_data_preprocessing.py 
-│   └── test_model_training.py  
-├── app.py                      # Application streamlit
-├── autoscrap_800.py            # Scraping des données
-├── data_fusion.py              # Fusion des données
-├── data_preprocessing.py       # Préparation et nettoyage des données
-├── model_training.py           # Machine Learning
-└── README.md                   
+```
+PrédictMyCar/
+├── data/                     # Dossier pour les jeux de données
+├── ML/                       # Dossier pour les fichiers liés au Machine Learning
+├── tests/                    # Dossier pour les tests unitaires
+│ ├── test_autoscrap.py
+│ ├── test_data_preprocessing.py
+│ └── test_model_training.py
+├── app.py                   # Application streamlit
+├── autoscrap_800.py         # Scraping des données
+├── data_fusion.py           # Fusion des données
+├── data_preprocessing.py    # Préparation et nettoyage des données
+├── model_training.py        # Machine Learning
+└── README.md
+```                  
 
 
 ## Technologies utilisées
@@ -70,5 +72,6 @@ Bibliothèques :
 Rousseau Nora
 
 Boudamous Lyna
+
 
 
