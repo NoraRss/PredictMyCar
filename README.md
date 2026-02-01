@@ -1,4 +1,4 @@
-# 🚗 PredcitMyCar
+# 🚗 PredictMyCar
 
 ## Introduction
 
@@ -66,3 +66,4 @@ Bibliothèques :
 Rousseau Nora
 
 Boudamous Lyna
+
