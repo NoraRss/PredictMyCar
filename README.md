@@ -26,7 +26,7 @@ Possibilité de filtrer par marque, modèle, année, kilométrage, carburant ou 
 ## Etape du projet :
 - Scraping de données réelles pour obtenir des informations à jour sur le marché de l’occasion.
 
-Nous avons réalisé un scraping sur le site Autosphere, plusieurs fois, en récupérant les données page par page (35 pages à chaque fois, sachant qu’une page contient environ 23 annonces), ce qui nous a permis d’obtenir au total environ 5 600 annonces.
+Nous avons réalisé un scraping sur le site Autosphere, plusieurs fois, en récupérant les données page par page (35 pages à chaque fois, sachant qu’une page contient environ 23 annonces donc environ 800 annonces à chaque fois), ce qui nous a permis d’obtenir au total environ 5 600 annonces.
 
 Nous avons scrapés pour chaque annonce les données suivantes : Marque, Modèle, Prix, Année, Kilométrage, Puissance fiscale (CV), Puissance réelle (ch), Carburant, Boîte de vitesse, Code postal
 
@@ -50,7 +50,7 @@ PredictMyCar/
 │ ├── test_data_preprocessing.py
 │ └── test_model_training.py
 ├── app.py                   # Application streamlit
-├── autoscrap_800.py         # Scraping des données
+├── autoscrap_800.py         # Scraping des données (script des 35 premières pages, on changeait le nbr de pages à scraper et le  nom du json en sortie pour les autres pages)
 ├── data_fusion.py           # Fusion des données
 ├── data_preprocessing.py    # Préparation et nettoyage des données
 ├── model_training.py        # Machine Learning
@@ -73,6 +73,7 @@ Bibliothèques :
 Rousseau Nora
 
 Boudamous Lyna
+
 
 
 
