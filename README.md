@@ -39,6 +39,7 @@ Lancer l’application web : python -m streamlit run app.py
 ## Structure du projet
 PredictMyCar/
 ├── data/                       # Dossier pour les datasets
+
 ├── ML/                         # Dossier pour les fichiers liés au Machine Learning
 ├── tests/                      # Dossier pour les tests unitaires
 │   ├── test_autoscrap.py       
