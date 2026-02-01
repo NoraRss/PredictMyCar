@@ -26,6 +26,10 @@ Possibilité de filtrer par marque, modèle, année, kilométrage, carburant ou 
 ## PredictMyCar est un projet qui combine :
 - Scraping de données réelles pour obtenir des informations à jour sur le marché de l’occasion.
 
+Nous avons réalisé un scraping sur le site Autosphere, plusieurs fois, en récupérant les données page par page (35 pages à chaque fois, sachant qu’une page contient environ 23 annonces), ce qui nous a permis d’obtenir au total environ 5 600 annonces.
+
+Nous avons scrapés pour chaque annonce les données suivantes : Marque, Modèle, Prix, Année, Kilométrage, Puissance fiscale (CV), Puissance réelle (ch), Carburant, Boîte de vitesse, Code postal
+
 - Nettoyage et prétraitement des données afin d’avoir un jeu fiable et exploitable.
 - Prédiction du prix des véhicules via machine learning et sélection du modèle le plus performant.
 - Création d'une interface web interactive avec Streamlit pour rendre la prédiction accessible à tous.
@@ -66,4 +70,5 @@ Bibliothèques :
 Rousseau Nora
 
 Boudamous Lyna
+
 
