@@ -32,6 +32,10 @@ Nous avons scrapés pour chaque annonce les données suivantes : Marque, Modèle
 
 - Nettoyage et prétraitement des données afin d’avoir un jeu fiable et exploitable.
 - Prédiction du prix des véhicules via machine learning et sélection du modèle le plus performant.
+
+Cette étape repose sur l’entraînement et la comparaison de plusieurs modèles de régression, notamment le Dummy Regressor, la régression linéaire, la régression Lasso, l’algorithme des k-plus proches voisins (KNN), l’arbre de décision, la forêt aléatoire (Random Forest) et le Gradient Boosting.
+L’évaluation des performances est réalisée à l’aide d’un prétraitement des données et d’une validation croisée, en s’appuyant sur des métriques adaptées telles que l’erreur absolue moyenne (MAE), la racine de l’erreur quadratique moyenne (RMSE) et le coefficient de détermination (R²). Le modèle final est sélectionné comme étant celui présentant la plus faible erreur absolue moyenne (MAE) en validation croisée sur le jeu d’entraînement. 
+
 - Création d'une interface web interactive avec Streamlit pour rendre la prédiction accessible à tous.
 
 
@@ -73,6 +77,7 @@ Bibliothèques :
 Rousseau Nora
 
 Boudamous Lyna
+
 
 
 
