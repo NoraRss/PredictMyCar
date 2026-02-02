@@ -24,7 +24,7 @@ Possibilité de filtrer par marque, modèle, année, kilométrage, carburant ou 
 
 
 ## Etapes du projet :
-1- Scraping de données réelles pour obtenir des informations à jour sur le marché de l’occasion.
+- Scraping de données réelles pour obtenir des informations à jour sur le marché de l’occasion.
 
 Nous avons réalisé un scraping sur le site Autosphere, plusieurs fois, en récupérant les données page par page (35 pages à chaque fois, sachant qu’une page contient environ 23 annonces donc environ 800 annonces à chaque fois), ce qui nous a permis d’obtenir au total environ 5 600 annonces.
 
@@ -78,6 +78,7 @@ Bibliothèques :
 Rousseau Nora
 
 Boudamous Lyna
+
 
 
 
