@@ -147,6 +147,8 @@ Si vous laissez certains critères non renseignés, l’application utilisera le
 • PredictMyCar repose sur un modèle prédictif entraîné sur des milliers d’annonces de voitures d’occasion provenant du site Autosphère.  
 • La prédiction s’adapte selon vos critères et propose un intervalle de prix pour refléter la variabilité du marché.  
 • Les visualisations interactives facilitent la compréhension des données et vous aident à prendre des décisions éclairées pour acheter ou vendre.
+
+Cette application a été développée exclusivement à des fins académiques.
 """)
 
 
@@ -725,3 +727,4 @@ with tabs[4]:
 
         fig_map.update_layout(margin={"r":0,"t":0,"l":0,"b":0})
         st.plotly_chart(fig_map, use_container_width=True)
+
